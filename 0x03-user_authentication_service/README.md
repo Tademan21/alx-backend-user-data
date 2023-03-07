@@ -1,25 +1,4 @@
-# User Authentication Service
-
-This project contains tasks for learning to create a user authentication service.
-
-## Requirements
-
-+ SQLAlchemy 1.3.x
-+ pycodestyle 2.5
-+ bcrypt
-+ python3 3.7
-
-## Tasks To Complete
-
-+ [x] 0. **User model**<br />[user.py](user.py) contains a SQLAlchemy model named `User` for a database table named `users` (by using the [mapping declaration](https://docs.sqlalchemy.org/en/13/orm/tutorial.html#declare-a-mapping) of SQLAlchemy) and meets the following requirements:
-  + The model will have the following attributes:
-    + `id`, the integer primary key.
-    + `email`, a non-nullable string.
-    + `hashed_password`, a non-nullable string.
-    + `session_id`, a nullable string.
-    + `reset_token`, a nullable string.
-
-+ [x] 1. **create user**<br />[db.py](db.py) contains a completion of the `DB` class provided below to implement the `add_user` method according to the given requirements:
+ntains a completion of the `DB` class provided below to implement the `add_user` method according to the given requirements:
   + &nbsp;
     ```python
     #!/usr/bin/env python3
